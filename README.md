@@ -1,6 +1,6 @@
 ![Gemma Banner](public/logo_with_title.png)
 
-Gemma is a browser extension that runs the Gemma 2 assistant locally via Ollama, providing an in-page conversational AI with voice input, image explanation, and quick action helpers. In this project Gemma is embedded as the local assistant backend (the offscreen agent) that receives page context and image metadata, runs local inference, and streams replies back into the page UI.
+Gemmo (I named this AI assistant as Gemmo) is a browser extension that runs the Gemma assistant locally via Ollama, providing an in-page conversational AI with voice input, image explanation, and quick action helpers. In this project Gemma is embedded as the local assistant backend (the offscreen agent) that receives page context and image metadata, runs local inference, and streams replies back into the page UI.
 
 ```mermaid
 flowchart LR
