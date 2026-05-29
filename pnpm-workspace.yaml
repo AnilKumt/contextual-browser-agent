@@ -1,0 +1,6 @@
+allowBuilds:
+  esbuild: false
+  onnxruntime-node: false
+  protobufjs: false
+  sharp: false
+  spawn-sync: false
