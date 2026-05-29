@@ -1,8 +1,8 @@
 ![Gemma Banner](public/logo_with_title.png)
 
-Gemma-Gem is a browser extension that runs the Gemma 2 assistant locally via Ollama, providing an in-page conversational AI with voice input, image explanation, and quick action helpers. Gemma is used as the local assistant backend (via the offscreen agent) to handle user prompts, interpret attached image context, and generate streamed replies.
+Gemmo is a browser extension that runs the Gemma 2 assistant locally via Ollama, providing an in-page conversational AI with voice input, image explanation, and quick action helpers. Gemma is used as the local assistant backend (via the offscreen agent) to handle user prompts, interpret attached image context, and generate streamed replies.
 
-```mermaid
+```mermaidupdated readme
 flowchart LR
 	subgraph Browser
 		CS["Content Script\n(content/chat-overlay.ts)"]
