@@ -38,7 +38,7 @@ flowchart LR
 - Image explanation & annotation: drop or paste an image and ask Gemma to describe the contents, extract text (OCR), or suggest captions and alt text.
 - Customer support & writing: draft replies, summarize conversations, or convert long threads into short actionable items.
 
-## Where we have implemented Gemma in this project
+## Where I have implemented Gemma in this project
 
 - `content/chat-overlay.ts` — the in-page UI: message list, composer, push-to-talk, image attach/drop/paste UI, quick-action buttons, and transient UI state.
 - `entrypoints/content.ts` — content-script wiring: voice recognition/synthesis, image preprocessing (metadata + OCR), page-language detection, and sending `agent:run` messages to background.
